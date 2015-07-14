@@ -17,7 +17,7 @@ public class JumpController : MonoBehaviour {
 			body.AddForce(new Vector3(body.velocity.x,jumpForce,body.velocity.z));
 		}
 
-		Debug.Log (transform.position.y + " " + jumpForce);
+		//Debug.Log (transform.position.y + " " + jumpForce);
 
 	}
 }
